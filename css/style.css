@@ -58,7 +58,7 @@ input[type=search]{
     box-sizing: border-box;
 }
 .slide-box{
-    margin: 60px;
+    margin: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -119,6 +119,12 @@ h2{
     width: 90px;
     box-sizing: border-box;
 }
+.categories:hover a{
+    color: #FFFFFF;
+    background-color: rgba(203,96,23,1.00);
+    transition: all ease 0.5s;
+}
+
 .cart{
     position: absolute;
     bottom: 0px;
@@ -148,4 +154,24 @@ h2{
 .cart:hover{
     background-color: #dc721f;
     transition: all ease 0.5s;
+}
+.swiper-container .slide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: rgba(255,255,255,0.1);
+    
+}
+.slide span{
+    font-size: 35px;
+    color: white;
+    line-height: 41px;
+
+}
+.swiper-container .right{
+    right: 0;
+}
+.swiper-container .left{
+    left: 0;
 }
